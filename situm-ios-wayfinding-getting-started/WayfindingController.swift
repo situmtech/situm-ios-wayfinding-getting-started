@@ -31,7 +31,12 @@ class WayfindingController: UIViewController {
                 self.performSegue(withIdentifier: "unloadWayfinding", sender: self)
             }
         )
-        library?.load(buildingWithId: "YOUR_BUILDING_ID", logWith: credentials)
+        library?.setCredentials(credentials)
+        do {
+            try library?.load(buildingWithId: "YOUR_BUILDING_ID")
+        } catch {
+            print("An error has ocurred. Your SitumView couldn't be loaded.")
+        }
         super.viewWillAppear(animated)
     }
 
