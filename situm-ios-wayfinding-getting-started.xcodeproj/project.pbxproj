@@ -116,6 +116,7 @@
 				3A55DB83228DA3D700315BD4 /* CopyFiles */,
 				3A55DB49228D971800315BD4 /* Resources */,
 				38F79CC9148F7D244FCBF053 /* [CP] Embed Pods Frameworks */,
+				22812A0CEEAAB62C5CE7B63A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,6 +174,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		22812A0CEEAAB62C5CE7B63A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-situm-ios-wayfinding-getting-started/Pods-situm-ios-wayfinding-getting-started-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-situm-ios-wayfinding-getting-started/Pods-situm-ios-wayfinding-getting-started-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-situm-ios-wayfinding-getting-started/Pods-situm-ios-wayfinding-getting-started-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		38F79CC9148F7D244FCBF053 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -381,7 +399,7 @@
 					"$(PROJECT_DIR)/ios-app-wayfindingExample/frameworks",
 				);
 				INFOPLIST_FILE = "situm-ios-wayfinding-getting-started/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -405,7 +423,7 @@
 					"$(PROJECT_DIR)/ios-app-wayfindingExample/frameworks",
 				);
 				INFOPLIST_FILE = "situm-ios-wayfinding-getting-started/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
