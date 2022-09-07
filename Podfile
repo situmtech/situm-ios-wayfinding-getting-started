@@ -2,5 +2,5 @@ target 'situm-ios-wayfinding-getting-started' do
   use_frameworks!
   source 'https://github.com/CocoaPods/Specs.git'
   platform :ios, '10.0'
-  pod 'SitumWayfinding', '0.8.1'
+  pod 'SitumWayfinding', '0.9.0'
 end
